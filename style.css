@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+}
+.container{
+    position: absolute;
+    border: 3px solid #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* padding: 10vw 3vw; */
+    padding: 3vw 3vw;
+    border-radius: 10px;
+    backdrop-filter: blur(8px);
+}
+h6{
+    color: red;
+    padding-bottom: 5px;
+    opacity: 0;
+}
+h1{
+    text-align: center;
+    padding-bottom: 2vw;
+    font-size: 3vw;
+}
+.container .form-box .group{
+    /* background-color: aqua; */
+    border-bottom: 1px solid #fff;
+}
+.container .form-box .group input{
+    height: 30px;
+    border-bottom: 1px solid #ababab;
+    background-color: transparent;
+    border: none;
+}
+.container .form-box .group input::placeholder{
+    color: #ffffff94;
+}
+
+.container .form-box button{
+    padding: 8px;
+    background-color: rgba(0, 42, 255, 0.559);
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 20px;
+    
+}
+.container .form-box .bottom-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 11px;
+    padding-top: 15px;
+    
+}
+.container .form-box .bottom-part span a{
+    text-decoration: none;
+}
+.container .form-box .bottom-part span a:hover{
+    border-bottom: 1px solid wheat;
+}
